@@ -1,0 +1,42 @@
+.card {
+  width: 190px;
+  height: 220px;
+  filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.2));
+  border-radius: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 141px 10px 0;
+}
+
+.box {
+  width: 190px;
+  height: 220px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 5.73%, rgba(0, 0, 0, 0.5) 66.15%) !important;
+  border-radius: 15px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.texts {
+  width: 170px;
+  height: 68px;
+}
+.texts span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.texts h2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-top: 11px;
+  width: 170px;
+  height: 40px;
+  overflow: hidden;
+}

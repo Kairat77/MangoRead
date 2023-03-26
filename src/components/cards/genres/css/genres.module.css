@@ -1,0 +1,27 @@
+.genres span {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 43px;
+  color: #000000;
+}
+
+.genres {
+  max-height: 558px;
+  overflow-y: scroll;
+  padding-left: 20px;
+}
+
+.genres ul {
+  display: flex;
+  flex-direction: column;
+  /*row-gap: 10px;*/
+  height: max-content;
+  overflow-y: scroll;
+}
+
+.genres ul li label span {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #000000;
+}

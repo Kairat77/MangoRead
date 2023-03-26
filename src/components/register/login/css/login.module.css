@@ -1,0 +1,31 @@
+.fat {
+   margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.wid{
+  width: 410px;
+  height: 52px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  z-index: 1;
+}
+.check{
+   font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #878787;
+}
+
+.fat button {
+  height: 50px;
+  background: #AD02E0;
+  border-radius: 8px;
+  font-weight: 400;
+  width: 410px;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}

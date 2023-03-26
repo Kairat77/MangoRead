@@ -1,0 +1,68 @@
+.genres {
+  width: 400px !important;
+  height: 700px !important;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /*padding: 30px 20px 10px;*/
+  padding-top: 30px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.genres button {
+  width: 400px !important;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 185px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #000000;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.genres button:active {
+  background: rgba(135, 135, 135, 0.2);
+  border-radius: 10px;
+}
+
+.genres button span {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #878787;
+  display: flex;
+  align-items: center;
+  column-gap: 17px;
+}
+
+.lists {
+  position: absolute;
+  top: 108px;
+}
+
+
+.lists ul li {
+  padding: 0;
+}
+
+.lists ul li label {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #000000;
+}
+
+.btn2 {
+  display: flex;
+  column-gap: 10px !important;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #878787;
+}

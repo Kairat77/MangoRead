@@ -1,0 +1,56 @@
+.comment {
+  width: max-content;
+  height: max-content;
+  background: #FFFFFF;
+  border-radius: 32px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: .3s ease-in-out;
+  padding: 37px 60px 60px;
+}
+
+.user {
+  width: 408px;
+  height: 100px;
+  background: #000;
+  margin-bottom: 53px;
+}
+
+.addCom {
+  display: flex;
+  width: 660px;
+  height: 52px;
+}
+
+.addCom input::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+  color: #878787;
+}
+
+.addCom button {
+  width: 160px;
+  height: 52px;
+  background: #AD02E0;
+  border-radius: 0 8px 8px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.addCom button:hover {
+  background: #AD02E0;
+  box-shadow: 0 0 20px #AD02E0;
+}
+.add{
+  width: 500px;
+  height: 57px;
+  border-radius: 8px 0 0 8px;
+  z-index: 1;
+  border-color: #AD02E0;
+}

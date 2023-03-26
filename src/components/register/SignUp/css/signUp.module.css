@@ -1,0 +1,51 @@
+.fat{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.avatar{
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 15px;
+  
+}
+.avat{
+  margin-bottom: 21px;
+  margin-top: 39px;
+}
+.top{
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.spi{
+  width: 410px;
+  height: 52px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  z-index: 1;
+}
+.fat button {
+  width: 410px;
+  height: 50px;
+  background: #AD02E0;
+  color: #FFFFFF;
+  font-size: 16px;
+  border-radius: 8px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}

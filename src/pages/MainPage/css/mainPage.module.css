@@ -1,0 +1,30 @@
+.mainPage {
+  height: max-content;
+  background: #F3F3F3;
+  padding: 32px 0;
+}
+
+.container {
+  max-width: 1240px !important;
+  display: flex !important;
+  align-items: center !important;
+  column-gap: 20px;
+  margin-bottom: 30px;
+}
+
+.pagination {
+  margin: 0 auto !important;
+  width: max-content;
+  margin: 28px 0 32px;
+  background: none;
+  min-width: 45px;
+  min-height: 45px;
+  color: #fff;
+  padding: 0 13px;
+  font-weight: 400px;
+  font-size: 24px;
+  line-height: 35px;
+  border-radius: 50%;
+  color: #A5A5A5;
+  margin-left: 32px;
+}

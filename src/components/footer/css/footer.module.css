@@ -1,0 +1,99 @@
+.footer {
+  height: 402px;
+  padding-top: 30px;
+}
+
+.container {
+  max-width: 1240px !important;
+}
+
+.contentTop {
+  display: flex;
+  align-items: center;
+  column-gap: 195px;
+  height: 250px;
+}
+
+.footerLogo a {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  text-decoration: none;
+}
+
+.logoText h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.logoText p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin-top: 9px;
+  width: max-content;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.links a {
+  width: max-content;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.map {
+  width: 400px;
+  height: 250px;
+}
+
+.contentBottom {
+  padding-top: 40px;
+  height: 62px;
+  margin-top: 30px;
+  border-top: 1px solid #BBBBBB;
+}
+
+.bottomText {
+  width: max-content;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
+}
+
+.bottomText span {
+  width: max-content;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.lins {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+
+.lins a {
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  width: max-content;
+}

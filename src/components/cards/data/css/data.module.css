@@ -1,0 +1,33 @@
+.dates {
+  column-gap: 10px;
+  padding-left: 15px;
+  margin-top: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: max-content;
+}
+
+.typeSpan {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #000000;
+  padding-left: 15px;
+}
+
+.dates hr {
+  width: 15px;
+  height: 1px;
+  border: none;
+  outline: none;
+  background-color: #000;
+}
+.data{
+  caret-color: #2FE09B;
+  width: 168px;
+  height: 55px;
+  border-radius: 8px;
+  border: 2px solid #2FE09B;
+  padding: 15px;
+}

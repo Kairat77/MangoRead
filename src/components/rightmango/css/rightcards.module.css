@@ -1,0 +1,32 @@
+.cards {
+  width: max-content;
+  height: max-content;
+  
+
+}
+
+.list {
+ 
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.list li {
+  padding: 0;
+}
+
+.load {
+  width: 820px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.load span {
+  width: 100px !important;
+  height: 100px !important;
+}
